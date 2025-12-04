@@ -39,7 +39,7 @@ For the Roost (MPNN) model, we represented each material by its elemental compos
 ## Important Note
 -The nature of this project differs substantially from conventional workflows, as clearly emphasized below. The primary motivation was to remove all engineered features and evaluate how the model performs under such minimal assumptions. For this reason, the usual extensive feature-engineering and feature-selection steps—typically a major component of any ML or DL project—were intentionally not included.
 
--As discussed in the presentation and above, I presented the two main objectives of the work as explicit guiding questions, and I addressed both of them on the way until reaching the conclusion.
+- As discussed in the presentation and above, I presented the two main objectives of the work as explicit guiding questions, and I addressed both of them on the way until reaching the conclusion.
 
 -For the modeling, I employed two deep-learning architectures that have been proposed in the literature for related composition–property prediction tasks: ElemNet (Scientific Reports volume 8, Article number: 17593 (2018)) and ROOST (Nat Commun 8, 50 (2017)). Both models were selected because their core design philosophy is to identify neural-network architectures capable of learning directly from elemental compositions without hand-crafted descriptors. Model interpretability was not the central focus of this project, although I briefly highlighted preliminary insights—such as the relative importance of certain elements compared to their natural abundance—in the final slide. The same rationale applies to ROOST, which has been shown in the literature to outperform ElemNet in certain tasks. 
 
