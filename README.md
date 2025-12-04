@@ -33,7 +33,7 @@ For the Roost (MPNN) model, we represented each material by its elemental compos
 -	Early stopping based on the performance over the validation set prevented overfitting and ensured generalization across both tasks.
 -	The held-out test set performance closely matched validation performance, indicating that the models did not overfit and that the learned composition–topology relationships are robust and transferable.
 -	Analysis of learned representations suggests that certain elemental groups and combinations exhibit strong correlations with topological phases, consistent with known chemical trends in SOC-driven band inversion and symmetry-protected states.
-•	Important Note: Even though the leveraging of the accuracy from 82-83 % from literature up to ~90% comes at the cost of the simple interpretability especially from the 1st topogivity paper.
+- Important Note: Even though the leveraging of the accuracy from 82-83 % from literature up to ~90% comes at the cost of the simple interpretability especially from the 1st topogivity paper.
 ## Future Directions:
 -	Extend to magnetic topological materials where DFT calculations suffer from unreliability more than weakly-correlated nonmagnetic materials discussed here.
 -	Implementation of deeper Neural Networks of other architectures to test if the chemical composition by itself can lead to a more powerful model.
