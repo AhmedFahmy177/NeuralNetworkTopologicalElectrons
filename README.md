@@ -1,5 +1,12 @@
 # Deep Learning Electronic Topological Materials
 Datasets are uploaded on the google drive: https://drive.google.com/drive/folders/1naKT5U6yUYohjQrabsWqBj70hur3eu0R?usp=sharing
+## Important Note
+-The nature of this project differs substantially from conventional workflows, and I clearly emphasized this at the outset. The primary motivation was to remove all engineered features and evaluate how the model performs under such minimal assumptions. For this reason, the usual extensive feature-engineering and feature-selection steps—typically a major component of any ML or DL project—were intentionally not included.
+
+-In the video, I presented the two main objectives of the work as explicit guiding questions, and I addressed both of them in the conclusion.
+
+-For the modeling, I employed two deep-learning architectures that have been proposed in the literature for related composition–property prediction tasks: ElemNet (Scientific Reports) and ROOST (Nature Communications). Both models were selected because their core design philosophy is to identify neural-network architectures capable of learning directly from elemental compositions without hand-crafted descriptors. Model interpretability was not the central focus of this project, although I briefly highlighted preliminary insights—such as the relative importance of certain elements compared to their natural abundance—in the final slide. The same rationale applies to ROOST, which has been shown in the literature to outperform ElemNet in certain tasks. I have also attached some preparatory sketches of the ROOST architecture that were created during the development of this work.
+
 ## Project Overview:
 - As the search for novel quantum materials continues to expand, the ability to accurately and efficiently identify topological phases has become increasingly crucial. Topological materials are central to cutting-edge technologies including fault-tolerant quantum computation, low-dissipation electronics, spin-momentum–locked transport, and emergent quantum information platforms. However, determining whether a material is topological typically requires resource-intensive techniques, such as angle-resolved photoemission spectroscopy (ARPES) or highly specialized density functional theory (DFT) calculations with spin-orbit coupling. These methods are either experimentally demanding or computationally expensive, making them impractical for large-scale screening across the tens of thousands of known crystalline compounds.
 
